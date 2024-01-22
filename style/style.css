@@ -6,22 +6,32 @@
     align-items: center;
 }
 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
 article {
     display: flex;
 }
 
-article > p, article > img {
-    width:50%
+article > * {
+    flex-grow: 1;
 }
 
-iframe {
-    height: 3em;
-    width: 100%;
-    border: none;
+#presentation {
+    display: flex;
+}
+
+#presentation > * {
+    flex-grow: 1;
 }
 
 header, footer {
-    height: 100%;
+    padding: 1em;
     background-color: blue;
     text-align: center;
 }
@@ -50,4 +60,8 @@ nav > ul > li {
     height: 25px;
     width: 200px;
     justify-content: space-around;
+}
+
+hr {
+    width: 80%;
 }
