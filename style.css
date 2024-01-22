@@ -25,3 +25,15 @@ header, footer {
     background-color: blue;
     text-align: center;
 }
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}  
+nav > ul > li {
+    display: inline-block;
+    padding: 0 1em;
+    text-decoration: none;
+}
