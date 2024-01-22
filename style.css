@@ -37,3 +37,8 @@ nav > ul > li {
     padding: 0 1em;
     text-decoration: none;
 }
+
+.logoNav {
+    height: 25px;
+    width: 200px;
+}
