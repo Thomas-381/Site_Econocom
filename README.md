@@ -1,6 +1,6 @@
 # Site_Econocom
 
-## TODO
+## À faire :
 
 - formulaire
 - textes/images
