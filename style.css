@@ -11,17 +11,11 @@ article {
 }
 
 article > p, article > img {
-    width:50%
-}
-
-iframe {
-    height: 3em;
-    width: 100%;
-    border: none;
+    flex-grow: 1;
 }
 
 header, footer {
-    height: 100%;
+    padding: 1em;
     background-color: blue;
     text-align: center;
 }
