@@ -1,0 +1,22 @@
+header, footer {
+    background-color: blue;
+    text-align: center;
+    padding: 1em;
+}
+
+#hook {
+    background-color: red;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+}
+
+article > p, article > img {
+    width:50%
+}
+
