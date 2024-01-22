@@ -35,13 +35,21 @@ header, footer {
     background-color: blue;
     text-align: center;
 }
+nav{
+    align-items: center;
+    padding: 4rem 0 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
-}  
+    justify-content: space-between;
+    flex-direction: row;
+}
 nav > ul > li {
     display: inline-block;
     padding: 0 1em;
@@ -51,6 +59,7 @@ nav > ul > li {
 .logoNav {
     height: 25px;
     width: 200px;
+    justify-content: space-around;
 }
 
 hr {
