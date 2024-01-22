@@ -1,9 +1,3 @@
-header, footer {
-    background-color: blue;
-    text-align: center;
-    padding: 1em;
-}
-
 #hook {
     background-color: red;
     padding: 20px;
@@ -20,3 +14,14 @@ article > p, article > img {
     width:50%
 }
 
+iframe {
+    height: 3em;
+    width: 100%;
+    border: none;
+}
+
+header, footer {
+    height: 100%;
+    background-color: blue;
+    text-align: center;
+}
