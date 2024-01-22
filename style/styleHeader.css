@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&family=Nunito:wght@600;900&display=swap'); 
 nav{
     align-items: center;
-    padding: 4rem 0 2rem;
+    padding: 2rem 0 2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,7 +29,7 @@ nav > ul > li > a {
     text-decoration: none;
     color: #F9F6EE;
     background-color: blueviolet;
-    padding: 15px 25px 15px 25px;
+    padding: 1em 2em 1em 2em;
     border-radius: 20px;
     margin: 10px;
 }
@@ -38,4 +38,8 @@ nav > ul > li > a {
     height: 25px;
     width: 200px;
     justify-content: space-around;
+}
+
+.contact{
+    padding: 1em 3.5em 1em 3.5em;
 }
