@@ -4,11 +4,19 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script> 
+            $(function(){
+              $("#header").load("header.html"); 
+            });
+            $(function(){
+              $("#footer").load("footer.html"); 
+            });
+        </script>
     </head>
     <body>
-        <header>
-            header
-        </header>
+        <div id="header"></div>
+        
         <main>
             <h1>Qui sommes-nous?</h1>
             <section id="presentation">
@@ -28,8 +36,7 @@
                 </article>
             </section>
         </main>
-        <footer>
-            footer
-        </footer>
+        
+        <div id="footer"></div>
     </body>
 </html>
