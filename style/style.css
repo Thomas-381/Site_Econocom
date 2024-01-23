@@ -25,20 +25,11 @@ h2 {
     text-align: center;
 }
 
-article {
-    display: flex;
-    margin: 40px;
-}
-
-article > * {
-    flex-grow: 1;
-}
-
-#presentation {
+.projet, #presentation, .histoire {
     display: flex;
 }
 
-#presentation > * {
+.projet > *, #presentation > *, .histoire > * {
     flex-grow: 1;
 }
 
