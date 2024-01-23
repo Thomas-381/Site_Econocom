@@ -1,3 +1,13 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
 #hook {
     background-color: red;
     padding: 20px;
@@ -16,6 +26,7 @@ h2 {
 
 article {
     display: flex;
+    margin: 40px;
 }
 
 article > * {
