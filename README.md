@@ -5,4 +5,5 @@
 - formulaire
 - textes/images
 - couleurs + polices
-- footers
+- footer
+- positionnements (probablement a faire apres les textes)
