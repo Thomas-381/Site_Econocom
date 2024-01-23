@@ -50,3 +50,36 @@ header, footer {
 hr {
     width: 80%;
 }
+
+.HB_container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hoverbox {
+    margin: 0px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.hoverbox:hover {
+    background-color: blueviolet;
+}
+
+.HB_title {
+    color: blueviolet;
+}
+
+.hoverbox:hover > .HB_title {
+    color: white;
+}
+
+.HB_content {
+    color: white;
+}
+
