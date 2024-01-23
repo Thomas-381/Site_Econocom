@@ -4,7 +4,7 @@ nav{
     padding: 2rem 0 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav > ul {
@@ -37,7 +37,6 @@ nav > ul > li > a {
 .logoNav {
     height: 25px;
     width: 200px;
-    justify-content: space-around;
 }
 
 .contact{
