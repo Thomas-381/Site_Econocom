@@ -2,6 +2,8 @@ body {
     width: 90%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    color: blueviolet;
 }
 
 #header {
@@ -27,10 +29,23 @@ h2 {
 
 .projet, #presentation, .histoire {
     display: flex;
+    margin: 40px;
 }
 
 .projet > *, #presentation > *, .histoire > * {
-    flex-grow: 1;
+    width: 50%;
+}
+
+.projet > article, .histoire > article {
+    padding: 10px 100px;
+    box-sizing: border-box;
+}
+
+.projet a {
+    padding: 1em;
+    background-color: orange;
+    border-radius: 40px;
+    font-weight: bold;
 }
 
 header, footer {
