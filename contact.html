@@ -13,13 +13,54 @@
               $("#footer").load("footer.html"); 
             });
         </script>
+        <link rel="stylesheet" href="style/styleContact.css">
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css">
     </head>
     <body>
         <div id="header"></div>
+        <h3>Formulaire de contact</h3>
         
         <main>
-            lipsum
+            <form method="post" action="traitement.php">
+                <section>
+                    <div>
+                        <label for="civilite">Votre civilité :</label>
+                        <select id="animal" name="animal">
+                            <option value="M">Monsieur</option>
+                            <option value="Mme">Madame</option>
+                            <option value="Mlle">Mademoiselle</option>
+                            <option value="NR" selected>non renseignée</option>
+                        </select>
+                      </div>
+
+                    <div>
+                      <label for="prenom">Prénom :</label>
+                      <input id="prenom" type="text" name="prenom" placeholder="votre prénom" required>
+                    </div>
+                    <div>
+                        <label for="nom">Nom :</label>
+                        <input id="nom" type="text" name="nom" placeholder="votre nom" required>
+                      </div>
+                  
+                    <div>
+                      <label for="email">E-mail :</label>
+                      <input id="email" type="email" name="email" placeholder="votre adresse mail" required>
+                    </div>
+                </section>
+                <section>
+                    <div>
+                      <label for="bio">Votre message :</label>
+                      <textarea id="bio" name="bio" rows="2" cols="40" placeholder="une courte bio" required>
+                      </textarea>
+                    </div>          
+                    <p>
+                      <!--<input class="icons icon-envelope" type="submit" value="Envoyez">-->
+                      <button class="icons icon-envelope" type="submit">Envoyez</button>
+                    </p>
+                </section>
+          
+              </form>
         </main>
         
         <div id="footer"></div>
