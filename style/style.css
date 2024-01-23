@@ -1,5 +1,4 @@
 body {
-    width: 90%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
@@ -12,11 +11,26 @@ body {
 }
 
 #hook {
-    background-color: red;
+    background-color: blueviolet;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#hook p {
+    width: 600px;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+}
+
+#hook a {
+    padding: 15px;
+    background-color: orange;
+    border-radius: 40px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 h1 {
@@ -29,7 +43,8 @@ h2 {
 
 .projet, #presentation, .histoire {
     display: flex;
-    margin: 40px;
+    width: 80%;
+    margin: 40px auto;
 }
 
 .projet > *, #presentation > *, .histoire > * {
@@ -41,11 +56,16 @@ h2 {
     box-sizing: border-box;
 }
 
+.projet p, #presentation p, .histoire p {
+    margin: 40px 0px;
+}
+
 .projet a {
-    padding: 1em;
+    padding: 15px;
     background-color: orange;
     border-radius: 40px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 header, footer {

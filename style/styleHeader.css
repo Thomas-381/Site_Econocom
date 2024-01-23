@@ -4,7 +4,7 @@ nav{
     padding: 2rem 0 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: white;
 }
 
