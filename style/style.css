@@ -4,6 +4,13 @@ body {
     font-size: 14pt;
     color: #573EEF;
     background-color: #F9F6EE;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
 }
 
 #header {
