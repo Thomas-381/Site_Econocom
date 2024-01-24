@@ -40,12 +40,12 @@ body form div {
     padding: auto;
 }
 
-section{
+main > section > div{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-section:nth-child(2){
+main > section > div >section:nth-child(2){
     align-items: start;
 }
 .send{
@@ -63,8 +63,9 @@ button{
     padding: 0.5em;
     background-color: #CDB8FA;
     cursor: pointer;
+    margin-top: 20px;
 }
-p{
+form > section > p{
     font-family: 'Roboto', sans-serif;
     color: #3E0D81;
     font-size: 1.5em;
