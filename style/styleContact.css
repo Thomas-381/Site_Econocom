@@ -16,13 +16,30 @@ label{
     color: #020D19;
     font-size: 1.5em;
     text-align: left;
-    margin-left: 2em;
+    width: 250px;
+}
+select{
+    font-family: 'Roboto', sans-serif;
+    color: #020D19;
+    text-align: left;
+    width: 170px;
+}
+input{
+    width: 170px;
+    padding: 0px;
 }
 form{
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     gap: 10px;
 }
+body form div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 475px;
+    padding: auto;
+}
+
 section{
     display: flex;
     flex-direction: column;
