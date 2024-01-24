@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
     color: #573EEF;
+    background-color: #F9F6EE;
 }
 
 #header {
@@ -100,25 +101,29 @@ hr {
 .HB_container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
+    margin: 40px 0px;
 }
 
 .hoverbox {
     margin: 0px;
+    padding: 20px;
     width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
     border-radius: 20px;
 }
 
 .hoverbox:hover {
-    background-color: #573EEF;
+    background-color: #8727DB;
 }
 
 .HB_title {
-    color: #573EEF;
+    color: #8727DB;
+    font-size: 22pt;
+    margin: 0px;
 }
 
 .hoverbox:hover > .HB_title {
@@ -127,5 +132,7 @@ hr {
 
 .HB_content {
     color: #F9F6EE;
+    margin: 0px;
+    margin-bottom: 5px;
 }
 
