@@ -29,7 +29,7 @@ section{
     gap: 10px;
 }
 section:nth-child(2){
-    align-items: end;
+    align-items: start;
 }
 .send{
     padding: 15px;
