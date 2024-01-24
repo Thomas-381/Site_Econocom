@@ -2,7 +2,7 @@ body {
     margin: auto;
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
-    color: blueviolet;
+    color: #573EEF;
 }
 
 #header {
@@ -11,7 +11,7 @@ body {
 }
 
 #hook {
-    background-color: blueviolet;
+    background-color: #573EEF;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@ body {
 
 #hook a {
     padding: 15px;
-    background-color: orange;
+    background-color: #F9D957;
     border-radius: 40px;
     font-weight: bold;
     text-decoration: none;
@@ -62,7 +62,7 @@ h2 {
 
 .projet a {
     padding: 15px;
-    background-color: orange;
+    background-color: #F9D957;
     border-radius: 40px;
     font-weight: bold;
     text-decoration: none;
@@ -70,7 +70,7 @@ h2 {
 
 header, footer {
     padding: 1em;
-    background-color: blue;
+    background-color: #8727DB;
     text-align: center;
 }
 
@@ -95,18 +95,18 @@ hr {
 }
 
 .hoverbox:hover {
-    background-color: blueviolet;
+    background-color: #573EEF;
 }
 
 .HB_title {
-    color: blueviolet;
+    color: #573EEF;
 }
 
 .hoverbox:hover > .HB_title {
-    color: white;
+    color: #F9F6EE;
 }
 
 .HB_content {
-    color: white;
+    color: #F9F6EE;
 }
 

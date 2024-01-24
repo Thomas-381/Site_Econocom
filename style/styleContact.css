@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&family=Nunito:wght@600;900&display=swap'); 
 header{
-    background-color: white;
+    background-color: #F9F6EE;
     text-align: center;
     padding: 1em;
 }
 h3{
     font-family: 'Roboto', sans-serif;
-    color: #020D19;
+    color: #3E0D81;
     font-size: 1.8em;
     text-align: left;
     margin-left: 2em;
 }
 label{
     font-family: 'Roboto', sans-serif;
-    color: #020D19;
+    color: #3E0D81;
     font-size: 1.5em;
     text-align: left;
     width: 250px;
 }
 select{
     font-family: 'Roboto', sans-serif;
-    color: #020D19;
+    color: #3E0D81;
     text-align: left;
     width: 170px;
 }
@@ -53,20 +53,20 @@ section:nth-child(2){
 }
 p.send{
     border-radius: 5px;
-    border: 1px solid #020D19;
+    border: 1px solid #3E0D81;
     padding: 0.3em;
 }
 button{
     font-size: 0.7em;
     border-radius: 5px;
-    border: 1px solid #020D19;
+    border: 1px solid #3E0D81;
     padding: 0.5em;
-    background-color: #B39AE6;
+    background-color: #CDB8FA;
     cursor: pointer;
 }
 p{
     font-family: 'Roboto', sans-serif;
-    color: #020D19;
+    color: #3E0D81;
     font-size: 1.5em;
 }
 main{
