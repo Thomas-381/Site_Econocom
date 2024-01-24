@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14pt;
     color: #573EEF;
+    background-color: #F9F6EE;
 }
 
 #header {
@@ -111,7 +112,6 @@ hr {
     width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
     border-radius: 20px;
 }
@@ -132,5 +132,7 @@ hr {
 
 .HB_content {
     color: #F9F6EE;
+    margin: 0px;
+    margin-bottom: 5px;
 }
 
