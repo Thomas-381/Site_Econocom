@@ -2,8 +2,4 @@
 
 ## À faire :
 
-- formulaire
-- textes/images
-- couleurs + polices
-- footer
-- positionnements (probablement a faire apres les textes)
+- textes économie circulaire (page1)
