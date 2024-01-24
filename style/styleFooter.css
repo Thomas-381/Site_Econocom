@@ -2,12 +2,11 @@
 
 body footer{
     color: #F9F6EE;
-    text-align: center;
-    padding: 1em;
     display: flex;
+    padding: 10px;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    background-color: #573EEF;
 }
 body > footer > section > p{
     font-family: 'Nunito Sans', 'Nunito', sans-serif;
