@@ -142,4 +142,8 @@ hr {
     margin: 0px;
     margin-bottom: 5px;
 }
+.HB_content a {
+    color: #F9F6EE;
+    text-decoration: underline;
+}
 
