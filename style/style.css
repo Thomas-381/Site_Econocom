@@ -64,14 +64,15 @@ h2 {
     margin: 40px auto;
 }
 
-.projet:nth-child(odd) {
+.projet:nth-child(odd), .histoire:nth-child(odd) {
     flex-wrap: wrap;
 }
 
 
 
 .projet > *, .histoire > * {
-    width: 50%;
+    flex-basis: 50%;
+    min-width: 600px;
 }
 
 .projet > article, .histoire > article {
