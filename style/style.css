@@ -41,13 +41,32 @@ h2 {
     text-align: center;
 }
 
-.projet, #presentation, .histoire {
+#presentation {
+    color: white;
+    background-color: #3E0D81;
+    padding: 70px;
+}
+
+#presentation h1, #presentation p {
+    text-align: left;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.projet, .histoire {
     display: flex;
+    flex-wrap: wrap-reverse;
     width: 80%;
     margin: 40px auto;
 }
 
-.projet > *, #presentation > *, .histoire > * {
+.projet:nth-child(odd) {
+    flex-wrap: wrap;
+}
+
+
+
+.projet > *, .histoire > * {
     width: 50%;
 }
 
@@ -56,7 +75,7 @@ h2 {
     box-sizing: border-box;
 }
 
-.projet p, #presentation p, .histoire p {
+.projet p, .histoire p {
     margin: 40px 0px;
 }
 
@@ -66,12 +85,6 @@ h2 {
     border-radius: 40px;
     font-weight: bold;
     text-decoration: none;
-}
-
-header, footer {
-    padding: 1em;
-    background-color: #8727DB;
-    text-align: center;
 }
 
 hr {
