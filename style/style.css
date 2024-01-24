@@ -11,17 +11,21 @@ body {
 }
 
 #hook {
-    background-color: #573EEF;
+    background: no-repeat url(../images/econocom-office.jpg);
+    background-size: cover;
+    background-position-y: bottom;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 400px;
+    padding-bottom: 100px;
 }
 
 #hook p {
     width: 600px;
     text-align: center;
-    color: white;
+    color: #573EEF;
     font-size: 20pt;
 }
 
