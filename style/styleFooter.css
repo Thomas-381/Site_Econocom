@@ -13,7 +13,7 @@ body footer section p{
     font-weight: 600;
     text-decoration: none;
     color: #F9F6EE;
-    margin: 10px;
+    margin: 3px;
     text-align: justify;
 }
 body footer section:nth-last-child(n+2){
